@@ -13,7 +13,21 @@ export default makeStyles(() => ({
     justifyContent: 'flex-end',
   },
   cardContent: {
-    display: 'flex',
     justifyContent: 'space-between',
   },
+  cardContentTitle: {
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+    display: '-webkit-box',
+    '-webkitLineClamp': '1' /* number of lines to show */,
+    '-webkitBoxOrient': 'vertical',
+  },
+  cardContentPrice: {},
+  productDescription: {
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+    display: '-webkit-box',
+    '-webkitLineClamp': '3' /* number of lines to show */,
+    '-webkitBoxOrient': 'vertical',
+  }
 }))
