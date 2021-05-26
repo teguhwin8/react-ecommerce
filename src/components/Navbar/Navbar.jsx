@@ -4,8 +4,6 @@ import {
   Toolbar,
   IconButton,
   Badge,
-  MenuItem,
-  Menu,
   Typography,
 } from '@material-ui/core'
 import { ShoppingCart } from '@material-ui/icons'
@@ -27,7 +25,7 @@ const Navbar = () => {
               height='25px'
               className={classes.image}
             />
-            Commerce.js
+            React E-Comemrce
           </Typography>
           <div className={classes.grow} />
           <div className={classes.button}>
